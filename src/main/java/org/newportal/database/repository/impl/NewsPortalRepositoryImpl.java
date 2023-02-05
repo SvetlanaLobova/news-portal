@@ -20,6 +20,9 @@ public class NewsPortalRepositoryImpl implements NewsPortalRepository {
     public News findByLogin(String login) {
         return null;
     }
+    public String findByLogin(Long id, String login) {
+        return null;
+    }
 
     @Override
     public News createNews(News news) {
